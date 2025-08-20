@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* High contrast mode styles */
+.high-contrast {
+  filter: contrast(150%) brightness(110%);
+}
+
+.high-contrast * {
+  border-color: #000 !important;
+}
+
+.high-contrast .text-gray-600 {
+  color: #000 !important;
+}
+
+.high-contrast .text-gray-500 {
+  color: #333 !important;
+}
+
+.high-contrast .bg-gray-50 {
+  background-color: #fff !important;
+}
+
+.high-contrast .bg-gray-100 {
+  background-color: #f0f0f0 !important;
+}
